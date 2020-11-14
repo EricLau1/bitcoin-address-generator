@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate-key.js",
+  "scripts": {
+    "gen-pvt-key": "node generate-pvt-key.js",
+    "gen-wif": "node generate-wif.js",
+    "gen-pub-key": "node generate-pub-key.js",
+    "gen-btc-addr": "node generate-btc-addr.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^5.2.0",
+    "bs58": "^4.0.1",
+    "cryptojs": "^2.5.3",
+    "eccrypto": "^1.1.5"
+  }
+}
